@@ -1,0 +1,60 @@
+/*--------------- Main Style --------------*/
+body{
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/*--------------- NavBar Style ---------------*/
+.nav-bar{
+  position: sticky;
+  top: 0;
+  z-index: 99;
+
+  .navbar-title{
+    opacity: 0.3;
+  }
+}
+
+/*-------------- MAIN STYLE -----------------*/
+.main{
+  width: 100%;
+  height: 100%;
+}
+/*------------- Search Style ---------------*/
+.search{
+  position: relative;
+}
+
+.btn{
+  position: absolute;
+  right: 13%;
+  z-index: 99;
+}
+/*------------- CARD Style ---------------*/
+
+/*----------- Loader Style --------------*/
+.loader{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*-------------- Footer Style -----------------*/
+.footer{
+  width: 100%;
+  height: 100px;
+  .container{
+    .row{
+      height: 100px;
+      opacity: 0.4;
+    }
+  }
+}
